@@ -1,7 +1,6 @@
  
 import greetings from './js/robots.js'
-import css from './css/app.css';
-import './scss/app.scss'
+import './scss/app2.scss'
 
 
 document.write(greetings("Affirmative", "Dave"));
