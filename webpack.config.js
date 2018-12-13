@@ -21,6 +21,18 @@ module.exports = {
         include: __dirname + '/src',
       },
       {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              mimetype: 'image/png'
+            }
+          }
+        ]
+      },
+      {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: "style-loader",
@@ -36,7 +48,6 @@ module.exports = {
       }
     ],
   },
-  watch: true,
   plugins: [
     new ExtractTextPlugin('app.css'),
     extractCSS
