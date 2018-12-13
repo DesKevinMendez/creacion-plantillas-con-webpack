@@ -48,6 +48,7 @@ module.exports = {
       }
     ],
   },
+  watch:true,
   plugins: [
     new ExtractTextPlugin('app.css'),
     extractCSS
