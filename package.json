@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
-    "watch": "webpack-dev-server"
+    "start": "webpack"
   },
   "keywords": [],
   "author": "",

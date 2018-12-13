@@ -1,13 +1,10 @@
  
 import greetings from './js/robots.js'
-import './scss/app2.scss'
+import './scss/main.scss'
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import 'bootstrap';
 
 document.write(greetings("Affirmative", "Dave"));
-
-
-
 
 let element = `
   <div class="element">
